@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Data Points Web App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Random Data Points</h1>
+    <div class="controls">
+        <label for="k-slider">Select k (nearest points): </label>
+        <input type="range" id="k-slider" min="2" max="10" value="5">
+        <span id="k-value">5</span>
+    </div>
+    <canvas id="points-canvas" width="800" height="600"></canvas>
+    <div id="average-display">Click on a point to see the average of the nearest k points.</div>
+    <script src="script.js"></script>
+</body>
+</html>

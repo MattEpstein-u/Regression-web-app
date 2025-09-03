@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+#points-canvas {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+    display: block;
+}
+
+#average-display {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+}
